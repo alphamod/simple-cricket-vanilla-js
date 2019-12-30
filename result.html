@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cricket Result</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h3 class="text-secondary p-2 text-center bg-dark text-light mb-1">
+      Results
+    </h3>
+    <table class="table table-striped">
+      <thead class="thead-dark text-center">
+        <tr>
+          <th class=" border-right">
+            Team 1 Score:&nbsp;<span id="team1score"></span>
+          </th>
+          <th>Team 2 Score:&nbsp;<span id="team2score"></span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Player Name</th>
+                  <th>Player Scores</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Player 1</td>
+                  <td id="player1ScoreT1"></td>
+                </tr>
+                <tr>
+                  <td>Player 2</td>
+                  <td id="player2ScoreT1"></td>
+                </tr>
+                <tr>
+                  <td>Player 3</td>
+                  <td id="player3ScoreT1"></td>
+                </tr>
+                <tr>
+                  <td>Player 4</td>
+                  <td id="player4ScoreT1"></td>
+                </tr>
+                <tr>
+                  <td>Player 5</td>
+                  <td id="player5ScoreT1"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Player Name</th>
+                  <th>Player Scores</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Player 1</td>
+                  <td id="player1ScoreT2"></td>
+                </tr>
+                <tr>
+                  <td>Player 2</td>
+                  <td id="player2ScoreT2"></td>
+                </tr>
+                <tr>
+                  <td>Player 3</td>
+                  <td id="player3ScoreT2"></td>
+                </tr>
+                <tr>
+                  <td>Player 4</td>
+                  <td id="player4ScoreT2"></td>
+                </tr>
+                <tr>
+                  <td>Player 5</td>
+                  <td id="player5ScoreT2"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr></tr>
+      </tbody>
+    </table>
+
+    <h3 class="text-center text-success" id="manOfTheMatch">
+      Man of the Match is
+    </h3>
+    <h2 class="text-center text-success" id="winningTeam">Winning team is...</h2>
+
+    <script src="./result.js"></script>
+  </body>
+</html>

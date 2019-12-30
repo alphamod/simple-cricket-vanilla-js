@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center"> 
+            <div class="col-xl-6 p-2">
+                <h2>Team1</h2>
+                <input  type="text" class="form-control text-center mt-5 scoreCard w-50" name="scoreCard" id="team1ScoreCard" disabled>
+                <button class="btn btn-primary w-50 mt-2" onclick="batTeam1()" id="team1Bat">Bat</button>
+                <div class="">
+                    <ul class="nav flex-column justify-content-center p-2">
+                        <li class="nav-item p-3">
+                            <h5>Player1</h5> <input  type="text" disabled id="player1t1">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player2</h5><input  type="text" disabled id="player2t1">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player3</h5><input  type="text" disabled id="player3t1">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player4</h5><input  type="text" disabled id="player4t1">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player5</h5><input  type="text" disabled id="player5t1">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ##############################Team 2################### -->
+            <div class="col-xl-6 p-2">
+                <h2>Team 2</h2>
+                <input  type="text" class="form-control text-center mt-5 scoreCard w-50" name="scoreCard" id="team2ScoreCard" disabled>
+                <button class="btn btn-primary w-50 mt-2" disabled onclick="batTeam2()" id="team2Bat">Bat</button>
+                <div class="">
+                    <ul class="nav flex-column justify-content-center p-2">
+                        <li class="nav-item p-3">
+                            <h5>Player1</h5> <input  type="text" disabled id="player1t2">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player2</h5><input  type="text" disabled id="player2t2">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player3</h5><input  type="text" disabled id="player3t2">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player4</h5><input  type="text" disabled id="player4t2">
+                        </li>
+                        <li class="nav-item p-3">
+                            <h5>Player5</h5><input  type="text" disabled id="player5t2">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row justify-content-center">
+            <a href="./result.html" target="_blank" class="btn btn-warning result">Result</a>
+        </div> -->
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
